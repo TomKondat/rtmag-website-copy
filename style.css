@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin:auto 0;
+}
+header{
+
+    background-color: #172337;
+    height: 15vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#header-upper{
+    width: 80%;
+    height: 10vh;
+    padding: 10px;
+    border-bottom:gray 1px solid ; 
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+#left-upper{
+width: 70%;
+padding: 10px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+
+}
+#btn-header{
+    background-color: #0e1727;
+    color: white;
+}
+#right-upper{
+width: 28%;
+display: flex;
+justify-content: end;
+}
+#logo-img{
+    width: 40%;
+    
+}
+#upper-border{
+    border-top: gray ;
+    size: 3px;
+}
+nav{
+    width: 80%;
+    height: 4vh;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+main{
+    height: 85vh;
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.row {
+    height: 70vh;
+    display: flex;
+    /* padding: 10px; */
+   
+    justify-content: space-around;
+}
+
+.row::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+#first-row{
+    height: 50vh;
+    justify-content: center;
+}
+
+.column{
+   
+    height: 90%;
+    width: 33%;
+    padding: 10px;
+    /* justify-content: space-between; */
+    
+}
+.mainpic{
+    width: 100%;
+    height: 100%;
+}
+#first-col{
+    height: 100%;
+    width: 65%;
+    background-color: blue;
+}
+#second-col{
+    width: 35%;
+    padding: 5px;
+    border-top-right-radius: 40px;
+    background-color: #172337;
+    color: white;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    
+    color: rgb(189, 188, 188);
+    direction: rtl;
+}
+button{
+    background-color:#8DA3B3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF1E1;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+#main-header{
+    color:white;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: black;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-card{
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+    color: black;
+}
+.btn-card{
+    direction: rtl;
+}
+
